@@ -36,7 +36,13 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Issues:
+    issues with gradle ONLY working with Java 1.8 or less.  
+    commons-i0 version must include trailing .0 such that 2.8 must be 2.8.0
+    Error in Android Studio if teh following line is not included in the function, onActivityResult :
+         super.onActivityResult(requestCode, resultCode, data);
+    Slight variations between Android Studio used in demo and most recent, stable version.
+    Connecting to GitHub for VCS required generation of API token to work with Android Studio (probably caused by Android Studio update).
 
 ## License
 
